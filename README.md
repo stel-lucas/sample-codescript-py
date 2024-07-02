@@ -14,11 +14,11 @@ Processing of medical images for the identification and processing of the renal 
 - Software used 3dSlicer and (..), programming languages ​​python and qt.
 
 ## Brief explanation of stages
-## Gui interface
+### Gui interface
 - Defining the point on the display or manually providing the start and end of the element you want to study, in this case the renal artery.
 - Selection of DICOM study volumes.
 
-## Process
+### Process
 - Take coordinates of the sectioned points.
 - From the points create an ROI.
 - Trimming of the original volume based on the defined ROI.
