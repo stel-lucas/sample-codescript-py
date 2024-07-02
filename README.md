@@ -18,6 +18,8 @@ Processing of medical images for the identification and processing of the renal 
 - Defining the point on the display or manually providing the start and end of the element you want to study, in this case the renal artery.
 - Selection of DICOM study volumes.
 
+![image](https://github.com/stel-lucas/sample-codescript-py/blob/main/Img/1.png)
+
 ### Process
 - Take coordinates of the sectioned points.
 - From the points create an ROI.
@@ -26,6 +28,8 @@ Processing of medical images for the identification and processing of the renal 
 - Identification of the study element and extraction of the central line.
 - Volume straightening.
 - Save straightened image to use as input for prediction model.
+
+![image](https://github.com/stel-lucas/sample-codescript-py/blob/main/Img/2.png)
 
 ## In this repository:
 - Source code.
