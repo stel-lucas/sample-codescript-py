@@ -31,7 +31,7 @@ Processing of medical images for the identification and processing of the renal 
 - Volume straightening.
 - Save straightened image to use as input for prediction model.
 
-
+![image](https://github.com/stel-lucas/sample-codescript-py/blob/main/Img/4.png)
 
 ## In this repository:
 - Source code.
