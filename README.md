@@ -25,11 +25,13 @@ Processing of medical images for the identification and processing of the renal 
 - From the points create an ROI.
 - Trimming of the original volume based on the defined ROI.
 - Segmentation of the new volume.
+![image](https://github.com/stel-lucas/sample-codescript-py/blob/main/Img/2.png)
 - Identification of the study element and extraction of the central line.
+![image](https://github.com/stel-lucas/sample-codescript-py/blob/main/Img/3.png)
 - Volume straightening.
 - Save straightened image to use as input for prediction model.
 
-![image](https://github.com/stel-lucas/sample-codescript-py/blob/main/Img/2.png)
+
 
 ## In this repository:
 - Source code.
