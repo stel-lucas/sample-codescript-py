@@ -1,21 +1,23 @@
 # About this repository
 
 ## Objective
-Processing of medical images for the identification and processing of the renal artery, in order to generate new images processed only with this artery to generate input data for a disease prediction model.
+Process real medical images to identify the renal artery, generating new images processed only with this artery and then generate input data for a disease prediction model.
+
+Scripts developped in py, interact with functions and kernel from opensource code. This is late propagated use the HPC with model to do a large processing, calculation and prediction.
 
 ## The project involves two stages:
 - Systematic generation of processed images for subsequent use (this git project).
-- Training and execution of the prediction model (..) using these images.
+- Training and execution of prediction models ML and HPC using these images.
 
 ## Other info
 - [Here](https://docum-project.readthedocs.io/en/latest/index.html) its possible to find some of the week reports, in a readthedocs project
 - Project carried out at the IDIAP institute, Valais Switzerland.
 - Images of the Lausanne Hospital.
-- Software used 3dSlicer and (..), programming languages ​​python and qt.
+- Functions form 3dSlicer, others, programming languages ​​python and qt.
 
 ## Brief explanation of stages
 ### Gui interface
-- Defining the point on the display or manually providing the start and end of the element you want to study, in this case the renal artery.
+- Defining the points on the display or manually providing the start and end of the element we want to study, in this case the renal artery.
 - Selection of DICOM study volumes.
 
 ![image](https://github.com/stel-lucas/sample-codescript-py/blob/main/Img/1.png)
